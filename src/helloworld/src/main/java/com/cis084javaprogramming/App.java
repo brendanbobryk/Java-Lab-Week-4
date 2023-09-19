@@ -15,8 +15,12 @@ public class App {
         long longValue = 1010101010101010101L;
         byte byteValue = 101;
         boolean booleanValue = true;
+        char charValue = 'A';
+        float floatValue = 0.0101F;
+        double doubleValue = 0.0101010101;
 
         System.out.println("Int: " + intValue + "\nShort: " + shortValue + "\nLong: "
-                + longValue + "\nByte: " + byteValue + "\nBoolean: " + booleanValue);
+                + longValue + "\nByte: " + byteValue + "\nBoolean: " + booleanValue +
+                "\nChar: " + charValue + "\nFloat: " + floatValue + "\nDouble: " + doubleValue);
     }
 }
