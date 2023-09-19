@@ -19,8 +19,13 @@ public class App {
         float floatValue = 0.0101F;
         double doubleValue = 0.0101010101;
 
-        System.out.println("Int: " + intValue + "\nShort: " + shortValue + "\nLong: "
+        Integer intObject = Integer.valueOf(1234);
+        Float floatObject = Float.valueOf(0.0101F);
+
+        System.out.println("Integer: " + intValue + "\nShort: " + shortValue + "\nLong: "
                 + longValue + "\nByte: " + byteValue + "\nBoolean: " + booleanValue +
-                "\nChar: " + charValue + "\nFloat: " + floatValue + "\nDouble: " + doubleValue);
+                "\nChar: " + charValue + "\nFloat: " + floatValue + "\nDouble: "
+                + doubleValue + "\nInteger Variable: " + intObject + "\nFloat Variable: "
+                + floatObject);
     }
 }
